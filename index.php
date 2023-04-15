@@ -1,22 +1,3 @@
-<?php
-    //Conexão com o banco
-    $server = "localhost";
-    $user = "root";
-    $password = "banco1020";
-    $dbname = "clientes_l2";
-
-    $connect = mysqli_connect($server,$user,$password,$dbname);
-
-    // Teste de conexão com o banco:
-    //
-    // if($connect = mysqli_connect($server, $user, $password, $dbname)) {
-    //     echo"Conexão Realizada!";
-    // } else {
-    //     print "erro";
-    // }
-?>
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
